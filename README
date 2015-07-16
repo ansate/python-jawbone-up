@@ -1,3 +1,5 @@
+this fork updates the header info so that api calls actually work
+
 NOTE: There is a bug in the PyPi version of this library. 
 Instead of 
 

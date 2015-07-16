@@ -79,7 +79,8 @@ class Jawbone(object):
         headers = {
             'Content-Type': 'application/x-www-form-urlencoded',
             'Accept': 'application/json',
-            'Host'  : 'https://jawbone.com',
+            'Host'  : 'jawbone.com',
+            'X-Target-URI' : 'https://jawbone.com',
             'Authorization': 'Bearer {0}'.format(access_token)
         }
 
